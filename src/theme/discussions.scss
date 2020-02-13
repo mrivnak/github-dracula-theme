@@ -33,7 +33,7 @@ body {
         border-color: $bg-color !important;
     }
     .discussion-item-entity {
-        color: #61afef !important;
+        color: #BD93F !important;
     }
     .review-thread-reply .inline-comment-form,
     .review-comment .is-comment-editing {
@@ -42,13 +42,13 @@ body {
     }
     .form-control::-webkit-input-placeholder,
     .form-select::-webkit-input-placeholder {
-        color: #aaa !important;
+        color: #6272a4 !important;
     }
     .Box-row {
         border-color: $border-color !important;
     }
     .Box-row--focus-gray.navigation-focus {
-        background-color: #090705 !important;
+        background-color: #282A36 !important;
     }
     .discussion-sidebar-item + .discussion-sidebar-item {
         border-color: $border-color !important;
@@ -186,7 +186,7 @@ body {
         }
     }
     .diffstat {
-        color: #a7a7a7 !important;
+        color: #BFBFBF !important;
     }
     .upload-enabled textarea {
         border-color: $border-color !important;

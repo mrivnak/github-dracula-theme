@@ -14,9 +14,9 @@ body {
             color: $faded-link-color !important;
         }
     }
-    .pagehead,
+    .pagehead, .Header,
     .repohead.experiment-repo-nav {
-        background: $head-bg !important;
+        background: #343746 !important;
         border-color: $border-color !important;
     }
     /* Repo label (i.e. Private, Archived) */
@@ -26,11 +26,11 @@ body {
         border-color: $light-border-color !important;
     }
     .site-header {
-        background: $head-bg !important;
+        background: #343746 !important;
         border-color: $border-color !important;
     }
     .showcase-page-pattern::after {
-        background: $head-bg !important;
+        background: #343746 !important;
         border-color: $border-color !important;
     }
     .form-group {
@@ -39,7 +39,7 @@ body {
             border-color: $border-color !important;
             color: $link-color !important;
             &:focus {
-                background-color: #1d1f25 !important;
+                background-color: #282A36 !important;
             }
         }
     }
@@ -65,10 +65,10 @@ body {
         border-bottom: 1px solid $border-color !important;
     }
     .menu-item:hover {
-        background-color: #41464f !important;
+        background-color: #343746 !important;
     }
     .menu-item.selected {
-        background-color: $bg-color !important;
+        background-color: #44475A !important;
         color: $link-color !important;
     }
     .boxed-group .heading,
@@ -181,7 +181,7 @@ body {
     }
     .social-count {
         color: $link-color !important;
-        background-color: #424549 !important;
+        background-color: #343746 !important;
     }
     .social-count:hover {
         color: $bright-text-color !important;
@@ -200,12 +200,12 @@ body {
         border-color: $button-active-color !important;
     }
     .input-contrast {
-        background-color: #424549 !important;
+        background-color: #343746 !important;
         border-color: $border-color !important;
         color: $link-color !important;
     }
     .input-contrast:focus {
-        background-color: #525559 !important;
+        background-color: #44475A !important;
     }
     .btn-octicon {
         color: $link-color !important;
@@ -265,13 +265,13 @@ body {
     }
     .commit .commit-title,
     .commit .commit-title a {
-        color: #bbb2a9 !important;
+        color: #6272a4 !important;
     }
     .commits-list-item.navigation-focus {
         background: $comment-bg !important;
     }
     .commit-group-title {
-        color: #a79f96 !important;
+        color: #6272a4 !important;
     }
     .commit-tease-contributors {
         background-color: $comment-bg !important;

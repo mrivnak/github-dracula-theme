@@ -6,7 +6,7 @@
 }
 
 .highlighted {
-    background-color: #3c414a !important;
+    background-color: #44475A !important;
 }
 
 code,
@@ -16,7 +16,7 @@ tt {
 }
 
 .blob-num {
-    color: #636d83 !important;
+    color: #6272a4 !important;
 }
 
 .blob-wrapper {
@@ -29,21 +29,25 @@ tt {
 }
 
 .pl-k {
-    color: #c678dd !important;
+    color: #FF79C6 !important;
 }
 
 .pl-e,
 .pl-en {
-    color: #61afef !important;
+    color: #50FA7B !important;
 }
 
 .pl-ent {
-    color: #7fba00 !important;
+    color: #FF79C6 !important;
 }
 
 .pl-c1,
-.pl-s .pl-v {
-    color: #d19a66 !important;
+.pl-s {
+    color: #BD93F9 !important;
+}
+
+.pl-v {
+    color: #8BE9FD !important;
 }
 
 .pl-pds,
@@ -53,18 +57,18 @@ tt {
 .pl-sr .pl-cce,
 .pl-sr .pl-sra,
 .pl-sr .pl-sre {
-    color: #98c379 !important;
+    color: #F1FA8C !important;
 }
 
 .pl-s .pl-s1,
 .pl-smi {
-    color: #c55 !important;
+    color: #50FA7B !important;
 }
 
 .pl-mh,
 .pl-mh .pl-en,
 .pl-ms {
-    color: #e5c07b !important;
+    color: #ffb86c !important;
 }
 
 .pl-mb {
@@ -77,4 +81,8 @@ pre {
 
 .pl-mi {
     color: #ccc !important;
+}
+
+.pl-c {
+    color: #6272a4 !important;
 }

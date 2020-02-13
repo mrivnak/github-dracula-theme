@@ -1,63 +1,63 @@
-$bg-color: #24292e;
-$dropdown-bg: #2c313a;
-$dropdown-bg-active: #183061;
-$head-bg: #21252b;
-$tag-bg-color: #1b1d23;
-$file-row-active-bg: #434852;
-$private-bg: #464542;
-$comment-bg: #333842;
-$block-bg: #31363f;
+$bg-color: #21222c;
+$dropdown-bg: #343746;
+$dropdown-bg-active: #44475A;
+$head-bg: #282A36;
+$tag-bg-color: #21222c;
+$file-row-active-bg: #44475A;
+$private-bg: #44475A;
+$comment-bg: #343746;
+$block-bg: #343746;
 
-$border-color: #181a1f;
-$light-border-color: #555;
-$highlight-border-color: #e36209;
+$border-color: #282A36;
+$light-border-color: #343746;
+$highlight-border-color: #BD93F9;
 
 $font-size: 12px;
 
-$text-color: #9da5b4;
-$bright-text-color: #fff;
-$text-green-color: #28a745;
-$text-red-color: #cb2431;
+$text-color: #F8F8F8;
+$bright-text-color: #F8F8F8;
+$text-green-color: #50FA7B;
+$text-red-color: #FF5555;
 $text-black-color: #000;
 
-$link-color: #d6d8da;
-$link-color-selected: #ccc;
-$faded-link-color: #8a939e;
+$link-color: #BFBFBF;
+$link-color-selected: #BFBFBF;
+$faded-link-color: #6272a4;
 
-$diff-addition: #103605;
-$diff-deletion: #540b07;
-$diff-addition-accent: #23691b;
-$diff-deletion-accent: #9a0a00;
-$diff-accent-font-color: #ccc;
+$diff-addition: #14401f;
+$diff-deletion: #401515;
+$diff-addition-accent: #50FA7B;
+$diff-deletion-accent: #FF5555;
+$diff-accent-font-color: #BFBFBF;
 
-$code-bg: #282c34;
-$code-default-color: #abb2bf;
-$code-snippet-color: #af6161;
+$code-bg: #282A36;
+$code-default-color: #F8F8F8;
+$code-snippet-color: #6272a4;
 
-$button-bg-image: linear-gradient(-180deg, #535659 0%, #424549 90%);
-$button-bg-image-hover: linear-gradient(-180deg, #636669 0%, #525559 90%);
-$button-active-color: #4d78cc;
+$button-bg-image: linear-gradient(-180deg, #343746 0%, #343746 90%);
+$button-bg-image-hover: linear-gradient(-180deg, #44475A 0%, #44475A 90%);
+$button-active-color: #6272a4;
 
-$codecov-num-bg-color-missed: #ef6c6c;
-$codecov-num-bg-color-hit: #4fd94f;
-$codecov-num-bg-color-partial: #fef04f;
+$codecov-num-bg-color-missed: #FF6E67;
+$codecov-num-bg-color-hit: #5AF78E;
+$codecov-num-bg-color-partial: #F1FA8C;
 
-$bg-pending-color: #dbab09;
+$bg-pending-color: #FF79C6;
 
-$alert-bg-color: #1e3f56;
-$alert-warning-bg-color: #d8937f;
+$alert-bg-color: #343746;
+$alert-warning-bg-color: #FF5555;
 
 // Scrollbar
-$scrollbar-track: #464542;
-$scrollbar-thumb: rgba(85, 85, 85, 0.7);
+$scrollbar-track: #343746;
+$scrollbar-thumb: rgba(68, 71, 90, 0.7);
 
 // Profile contributions graph variables
-$contrib-color: #196127;
-$contrib-color-1: #ebeaf0;
-$contrib-color-2: lighten($contrib-color, 50%);
-$contrib-color-3: lighten($contrib-color, 30%);
-$contrib-color-4: lighten($contrib-color, 15%);
-$contrib-color-5: $contrib-color;
+$contrib-color: #BD93F9;
+$contrib-color-1: #F8F8F8;
+$contrib-color-2: lighten($contrib-color, 10%);
+$contrib-color-3: lighten($contrib-color, 5%);
+$contrib-color-4: $contrib-color;
+$contrib-color-5: darken($contrib-color, 5%);
 /*
 // Inverted contribution colors (dark to light)
 $contrib-color-1: darken($contrib-color, 15%);
